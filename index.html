@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <!--Box Icons-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!--Foonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <i class='bx bxs-movie'></i>Movies
+    </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#coming">Coming</a></li>
+      <li><a href="#newsletter">Newsletteer</a></li>
+    </ul>
+    <a href="#" class="btn">Sign In</a>
+  </header>
+
+  <section class="home swiper" id="home">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide container">
+        <img src="/img/manofsteel2.jpg" alt="">
+        <div class="home-text">
+          <span>DC Universe</span>
+          <h1>Man of steel</h1>
+          <a href="#"class="btn">Book Now</a>
+          <a href="#" class="play">
+            <i class='bx bx-play'></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide container">
+        <img src="./img/batmanvsuperman2.jpg" alt="">
+        <div class="home-text">
+          <span>DC Universe</span>
+          <h1>Batman v Superman: <br>Dawn of Justice</h1>
+          <a href="#"class="btn">Book Now</a>
+          <a href="#" class="play">
+            <i class='bx bx-play'></i>
+          </a>
+        </div>
+      </div>
+  
+      <div class="swiper-slide container">
+        <img src="./img/justiceleague2.jpg" alt="">
+        <div class="home-text">
+          <span>DC Universe</span>
+          <h1>Zack Snyder's: <br>Justice League</h1>
+          <a href="#"class="btn">Book Now</a>
+          <a href="#" class="play">
+            <i class='bx bx-play'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <section id="main-slider">
+    <div class="main-slider-box">
+
+    </div>
+  </section>
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
